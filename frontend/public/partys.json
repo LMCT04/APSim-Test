@@ -1,0 +1,48 @@
+[
+  {
+    "partyName": "La Libertad Avanza",
+    "acronym": "LLA",
+    "ideology": {
+      "economic": "liberal",
+      "social": "conservador"
+    },
+    "foundingYear": 2021,
+    "founder": "Javier Milei",
+    "politicalLeader": {
+      "national": "Javier Milei",
+      "CABA": "Patricia Bullrich"
+    },
+    "partyColor": "#8A2BE2",
+    "alignment": {
+      "national": "oficialismo",
+      "CABA": "dialoguista"
+    },
+    "supportLevel": 40.6,
+    "lastElectionResult": {
+      "presidential": 55.65
+    }
+  },
+  {
+    "partyName": "Partido Justicialista",
+    "acronym": "PJ",
+    "ideology": {
+      "economic": "",
+      "social": "progresista"
+    },
+    "foundingYear": 1946,
+    "founder": "Juan Domingo Perón",
+    "politicalLeader": {
+      "national": "Cristina Fernandez de Kirchner",
+      "CABA": "Mariano Recalde"
+    },
+    "partyColor": "#0000CD",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    },
+    "supportLevel": 32.4,
+    "lastElectionResult": {
+      "presidential": 44.35
+    }
+  }
+]

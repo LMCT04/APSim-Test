@@ -1,0 +1,600 @@
+[
+  {
+    "nameDistrict": "Retiro",
+    "comuna": "1",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "", "politicalAffiliation": "LLA" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "San Nicolás",
+    "comuna": "1",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Puerto Madero",
+    "comuna": "1",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "San Telmo",
+    "comuna": "1",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Monserrat",
+    "comuna": "1",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Constitución",
+    "comuna": "1",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Recoleta",
+    "comuna": "2",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Balvanera",
+    "comuna": "3",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "San Cristóbal",
+    "comuna": "3",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "La Boca",
+    "comuna": "4",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Barracas",
+    "comuna": "4",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Parque Patricios",
+    "comuna": "4",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Nueva Pompeya",
+    "comuna": "4",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Almagro",
+    "comuna": "5",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Boedo",
+    "comuna": "5",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Caballito",
+    "comuna": "6",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Flores",
+    "comuna": "7",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Parque Chacabuco",
+    "comuna": "7",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Soldati",
+    "comuna": "8",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Lugano",
+    "comuna": "8",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Riachuelo",
+    "comuna": "8",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Liniers",
+    "comuna": "9",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Mataderos",
+    "comuna": "9",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Parque Avellaneda",
+    "comuna": "9",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Real",
+    "comuna": "10",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Monte Castro",
+    "comuna": "10",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Versalles",
+    "comuna": "10",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Floresta",
+    "comuna": "10",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Vélez Sársfield",
+    "comuna": "10",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Luro",
+    "comuna": "10",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Devoto",
+    "comuna": "11",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa del Parque",
+    "comuna": "11",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Santa Rita",
+    "comuna": "11",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Coghlan",
+    "comuna": "12",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Saavedra",
+    "comuna": "12",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Urquiza",
+    "comuna": "12",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Pueyrredón",
+    "comuna": "12",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Belgrano",
+    "comuna": "13",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Núñez",
+    "comuna": "13",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Colegiales",
+    "comuna": "13",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Palermo",
+    "comuna": "14",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Chacarita",
+    "comuna": "15",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Villa Crespo",
+    "comuna": "15",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "La Paternal",
+    "comuna": "15",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Agronomía",
+    "comuna": "15",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  },
+  {
+    "nameDistrict": "Parque Chas",
+    "comuna": "15",
+    "juntaComunal": {
+      "presidentDistrict": { "name": "-", "politicalAffiliation": "-" },
+      "member1": { "name": "-", "politicalAffiliation": "-" },
+      "member2": { "name": "-", "politicalAffiliation": "-" },
+      "member3": { "name": "-", "politicalAffiliation": "-" },
+      "member4": { "name": "-", "politicalAffiliation": "-" },
+      "member5": { "name": "-", "politicalAffiliation": "-" },
+      "member6": { "name": "-", "politicalAffiliation": "-" }
+    }
+  }
+]

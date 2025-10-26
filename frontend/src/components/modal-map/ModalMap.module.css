@@ -1,0 +1,25 @@
+.modalContainer {
+  background: grey;
+  position: fixed;
+  width: 55%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+}
+
+.modalHeader {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modalContent {
+  height: 95%;
+  background: white;
+  width: 100%;
+}

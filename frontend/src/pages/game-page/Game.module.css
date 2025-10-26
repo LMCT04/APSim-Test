@@ -1,0 +1,9 @@
+.mainContainer {
+  background-color: rgba(0, 70, 100, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 96%;
+  width: 99%;
+}
