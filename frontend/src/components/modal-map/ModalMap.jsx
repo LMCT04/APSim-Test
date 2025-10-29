@@ -7,11 +7,15 @@ import {
 } from "react-simple-maps";
 import partysDB from "../../../public/partys.json";
 import comunaDB from "../../../public/comunas.json";
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { SubdistrictModal, DistrictModal } from "../index";
 
 const ModalMap = ({ province, onClose }) => {
-  const [viewMode, setViewMode] = useState("barrios"); // "barrios" o "comunas"
-  const [hoveredKey, setHoveredKey] = useState(null); // para elevar el hovered
+  const [viewMode, setViewMode] = useState("barrios");
+  const [hoveredKey, setHoveredKey] = useState(null);
+  const [hoverInfo, setHoverInfo] = useState(null);
+  const [selectedGeo, setSelectedGeo] = useState(null);
+  const [modalType, setModalType] = useState(null); // comuna o barrio
 
   const provinceGeo =
     viewMode === "barrios"
@@ -41,6 +45,13 @@ const ModalMap = ({ province, onClose }) => {
     }
   };
 
+  const getDBSelectedDistrict = useMemo(() => {
+    if (modalType === "district" && selectedGeo) {
+      return comunaDB.find((c) => c.id === selectedGeo.properties.id);
+    }
+    return null;
+  }, [modalType, selectedGeo]);
+
   return (
     <div className={style.modalContainer}>
       <div className={style.modalHeader}>
@@ -56,6 +67,68 @@ const ModalMap = ({ province, onClose }) => {
         </select>
       </div>
       <div className={style.modalContent}>
+        {hoverInfo && (
+          <div className={style.infoHoverContainer}>
+            <p>
+              {viewMode === "barrios" ? "Barrio de " : "Comuna "}
+              {viewMode === "barrios"
+                ? hoverInfo?.properties.nombre
+                : hoverInfo?.properties.comuna}
+            </p>
+
+            {viewMode === "barrios" ? (
+              <p>Comuna {hoverInfo?.properties.comuna}</p>
+            ) : (
+              (() => {
+                const district = comunaDB.find(
+                  (c) => c.id === hoverInfo?.properties?.id
+                );
+                if (!district) return <p>No se encontró la comuna</p>;
+
+                const president = district.juntaComunal?.presidentDistrict;
+                const party = partysDB.find(
+                  (p) => p.acronym === president?.politicalAffiliation
+                );
+                const color = party?.partyColor || "#ccc";
+
+                return (
+                  <div className={style.presidentInfo}>
+                    <div>
+                      <p>
+                        <strong>Pte. Jta. Comunal:</strong>
+                        <p>{president?.name}</p>
+                        <p>
+                          <span
+                            style={{
+                              display: "inline-block",
+                              height: "12px",
+                              width: "12px",
+                              borderRadius: "50%",
+                              backgroundColor: color,
+                              marginRight: ".5rem",
+                              verticalAlign: "middle",
+                            }}
+                          ></span>
+                          {president?.politicalAffiliation}
+                        </p>
+                      </p>
+                    </div>
+                    <div>
+                      <p>
+                        <strong>Barrios:</strong>
+                      </p>
+                      <ul>
+                        {district.subdistricts.map((b) => (
+                          <li key={b}>{b}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                );
+              })()
+            )}
+          </div>
+        )}
         <ComposableMap
           projection="geoMercator"
           style={{ width: "100%", height: "100%" }}
@@ -82,12 +155,27 @@ const ModalMap = ({ province, onClose }) => {
                     <Geography
                       key={geo.rsmKey}
                       geography={geo}
-                      onMouseEnter={() => setHoveredKey(geo.rsmKey)}
-                      onMouseLeave={() => setHoveredKey(null)}
+                      onMouseEnter={() => {
+                        setHoveredKey(geo.rsmKey);
+                        setHoverInfo(geo);
+                      }}
+                      onMouseLeave={() => {
+                        setHoveredKey(null);
+                        setHoverInfo(null);
+                      }}
+                      onClick={() => {
+                        if (viewMode === "barrios") {
+                          setSelectedGeo(geo);
+                          setModalType("subdistrict");
+                        } else {
+                          setSelectedGeo(geo);
+                          setModalType("district");
+                        }
+                      }}
                       style={{
                         default: {
                           fill: fillColor,
-                          stroke: "#333",
+                          stroke: "#ffffffff",
                           strokeWidth: 0.2,
                           outline: "none",
                           cursor: "pointer",
@@ -113,6 +201,19 @@ const ModalMap = ({ province, onClose }) => {
             </Geographies>
           </ZoomableGroup>
         </ComposableMap>
+        {selectedGeo && modalType === "subdistrict" && (
+          <SubdistrictModal
+            geo={selectedGeo}
+            onClose={() => setSelectedGeo(null)}
+          ></SubdistrictModal>
+        )}
+        {selectedGeo && modalType === "district" && (
+          <DistrictModal
+            geo={selectedGeo}
+            onClose={() => setSelectedGeo(null)}
+            db={getDBSelectedDistrict}
+          ></DistrictModal>
+        )}
       </div>
     </div>
   );

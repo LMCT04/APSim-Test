@@ -1,8 +1,8 @@
 .modalContainer {
   background: grey;
   position: fixed;
-  width: 55%;
-  height: 70%;
+  width: 65%;
+  height: 75%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,4 +22,25 @@
   height: 95%;
   background: white;
   width: 100%;
+}
+
+.infoHoverContainer {
+  background-color: rgb(184, 179, 179);
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  padding: 0.8rem;
+}
+
+.infoHoverContainer p {
+  margin: 0;
+  padding: 0.3rem;
+}
+
+.comunaInfo p {
+  margin: 0;
+}
+
+.comunaInfo ul {
+  margin: 0;
 }

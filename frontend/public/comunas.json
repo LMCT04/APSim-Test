@@ -11,42 +11,102 @@
       "Constitucion"
     ],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Lucas Portela Lacanatte",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        { "name": "Vanina Squetino", "politicalAffiliation": "LLA" },
+        {
+          "name": "Maria Eugenia Pena Blanco",
+          "politicalAffiliation": "LLA"
+        },
+        { "name": "Gonzalo Roberto", "politicalAffiliation": "LLA" },
+        { "name": "Bautista Prusso", "politicalAffiliation": "PJ" },
+        {
+          "name": "Pablo Cesar Luciano Testori Schroeder",
+          "politicalAffiliation": "LLA"
+        },
+        { "name": "Luciano Grossi", "politicalAffiliation": "PJ" }
+      ]
+    },
+    "population": 258922
   },
   {
     "id": 2,
     "nameDistrict": "Comuna 2",
     "subdistricts": ["Recoleta"],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Agustin Fox",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Romina Adriana Quevedo",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Bruno Pappacena",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Griselda Zulma Mela",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Juan Manuel Bensusan",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Victor Moreno",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Eduardo Del Pino",
+          "politicalAffiliation": "LLA"
+        }
+      ]
+    },
+    "population": 149345
   },
   {
     "id": 3,
     "nameDistrict": "Comuna 3",
     "subdistricts": ["Balvanera", "San Cristobal"],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Silvia Collin",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Carlos Alberto Salazar",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Carolina Finardi",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Eduardo Carnevale",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Ines Fornassero",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Antonio Montenegro",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Julieta Perez",
+          "politicalAffiliation": "LLA"
+        }
+      ]
+    },
+    "population": 193790
   },
   {
     "id": 4,
@@ -58,84 +118,228 @@
       "Nueva Pompeya"
     ],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Silvia Monica Millara",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Ignacio Alvarez",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Roberto Daniel Gorza",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Marta Isabel Yane",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Matias Ruben Nieto",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Alicia Isabel Reynoso Podesta",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Cristian Vicente Corvalan",
+          "politicalAffiliation": "PJ"
+        }
+      ]
+    },
+    "population": 241096
   },
   {
     "id": 5,
     "nameDistrict": "Comuna 5",
     "subdistricts": ["Almagro", "Boedo"],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Sebastian Perdomo Carricart",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Maria Pia Inchauspe",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Maria Eugenia Acuña Martinez",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Martin Hernan Gorretta",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Camilo Santiago Vedia",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Yamila Iphais Fuxman",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Eduardo Daniel Saganias",
+          "politicalAffiliation": "LLA"
+        }
+      ]
+    },
+    "population": 187991
   },
   {
     "id": 6,
     "nameDistrict": "Comuna 6",
     "subdistricts": ["Caballito"],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Federico Ballan",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Maria Cristina Geninazzi",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Ignacio Abarca",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Samanta Anastasia Pepe",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Mariano Cuyeu",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Agustina Quinteros",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Nicolas Cancellieri",
+          "politicalAffiliation": "LLA"
+        }
+      ]
+    },
+    "population": 185964
   },
   {
     "id": 7,
     "nameDistrict": "Comuna 7",
     "subdistricts": ["Flores", "Parque Chacabuco"],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Iara Nahir Surt",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Julian Cappa",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Marcelo Freire",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Elisa Isolina Juarez",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Cristian Fabio Flores",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Lucia Di Laudo",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Leonardo Militello",
+          "politicalAffiliation": "PJ"
+        }
+      ]
+    },
+    "population": 242828
   },
   {
     "id": 8,
     "nameDistrict": "Comuna 8",
     "subdistricts": ["Villa Soldati", "Villa Lugano", "Villa Riachuelo"],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "PJ" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Lautaro Miguel Eviner",
+        "politicalAffiliation": "PJ"
+      },
+      "members": [
+        {
+          "name": "Nayla Belen Loitegui",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Juan Ignacio Mallo",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Josias Vazquez",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Berta Santillan",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Marcelo Martinez",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Antonella Belen Santagada",
+          "politicalAffiliation": "LLA"
+        }
+      ]
+    },
+    "population": 230623
   },
   {
     "id": 9,
     "nameDistrict": "Comuna 9",
     "subdistricts": ["Liniers", "Mataderos", "Parque Avellaneda"],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Maximiliano Rodrigo Mosquera Fantoni",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Juan Jose Chaves",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Gisela Soledad Aulita",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Lorena Analia Crespo",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Luis Yari Meozzi Diaz",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Alexis Quimey Miranda",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Alberto Rodolfo Espiño",
+          "politicalAffiliation": "PJ"
+        }
+      ]
+    },
+    "population": 171839
   },
   {
     "id": 10,
@@ -149,14 +353,38 @@
       "Villa Luro"
     ],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Juan Manuel Oro",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Karina Elsa Ammannato",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Gustavo Licastro",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Sandra Marta Chaar",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Ramiro Javier Triay",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Daniela Romero",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Miguel Angel Arancio",
+          "politicalAffiliation": "LLA"
+        }
+      ]
+    },
+    "population": 170859
   },
   {
     "id": 11,
@@ -168,14 +396,38 @@
       "Villa Gral. Mitre"
     ],
     "juntaComunal": {
-      "presidentDistrict": { "name": "-", "politicalAffiliation": "LLA" },
-      "member1": { "name": "-", "politicalAffiliation": "-" },
-      "member2": { "name": "-", "politicalAffiliation": "-" },
-      "member3": { "name": "-", "politicalAffiliation": "-" },
-      "member4": { "name": "-", "politicalAffiliation": "-" },
-      "member5": { "name": "-", "politicalAffiliation": "-" },
-      "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+      "presidentDistrict": {
+        "name": "Nicolas Ezequiel Maineri",
+        "politicalAffiliation": "LLA"
+      },
+      "members": [
+        {
+          "name": "Fabiana Noemi Satriano",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Daniel Saint Hilaire",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Antonella Guzzini",
+          "politicalAffiliation": "LLA"
+        },
+        {
+          "name": "Gaston Ezequiel Fernandez",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Malena Rotondo",
+          "politicalAffiliation": "PJ"
+        },
+        {
+          "name": "Carlos Buletti",
+          "politicalAffiliation": "LLA"
+        }
+      ]
+    },
+    "population": 190195
   },
   {
     "id": 12,
@@ -194,7 +446,8 @@
       "member4": { "name": "-", "politicalAffiliation": "-" },
       "member5": { "name": "-", "politicalAffiliation": "-" },
       "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+    },
+    "population": 215442
   },
   {
     "id": 13,
@@ -208,7 +461,8 @@
       "member4": { "name": "-", "politicalAffiliation": "-" },
       "member5": { "name": "-", "politicalAffiliation": "-" },
       "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+    },
+    "population": 236723
   },
   {
     "id": 14,
@@ -222,7 +476,8 @@
       "member4": { "name": "-", "politicalAffiliation": "-" },
       "member5": { "name": "-", "politicalAffiliation": "-" },
       "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+    },
+    "population": 227315
   },
   {
     "id": 15,
@@ -243,6 +498,7 @@
       "member4": { "name": "-", "politicalAffiliation": "-" },
       "member5": { "name": "-", "politicalAffiliation": "-" },
       "member6": { "name": "-", "politicalAffiliation": "-" }
-    }
+    },
+    "population": 182551
   }
 ]

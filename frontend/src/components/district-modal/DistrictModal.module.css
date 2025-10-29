@@ -1,0 +1,103 @@
+.disModalContainer {
+  background-color: rgb(108, 101, 101);
+  position: absolute;
+  width: 75%;
+  height: 80%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0.5rem 0.6rem 0 0;
+}
+
+.headerDMC {
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerDMC p {
+  margin: 0;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.bodyDMC {
+  height: 92%;
+  display: flex;
+}
+
+.bodyJC {
+  background-color: blueviolet;
+  height: 100%;
+  width: 35%;
+}
+
+.tableJC {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.tableRL {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tableCenter {
+  height: 100%;
+  width: 60%;
+}
+
+.memberJC,
+.presidentJC {
+  width: 3rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.tableTop,
+.tableBot {
+  width: 100%;
+  height: 25%;
+}
+
+.tableBot,
+.tableTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.table {
+  background-color: brown;
+  width: 100%;
+  height: 50%;
+  border-radius: 0.5rem;
+}
+
+.infoJC {
+  background-color: rgb(145, 139, 139);
+  width: 100%;
+  height: 60%;
+}
+
+.bodyActions {
+  background-color: yellow;
+  height: 100%;
+  width: 65%;
+}
