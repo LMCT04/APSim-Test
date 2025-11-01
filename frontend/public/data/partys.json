@@ -1,0 +1,117 @@
+[
+  {
+    "partyName": "La Libertad Avanza",
+    "acronym": "LLA",
+    "ideology": {
+      "economic": "liberal",
+      "social": "conservador"
+    },
+    "foundingYear": 2021,
+    "founder": "Javier Milei",
+    "politicalLeader": {
+      "national": "Javier Milei",
+      "CABA": "Patricia Bullrich"
+    },
+    "partyColor": "#3c1c63",
+    "alignment": {
+      "national": "oficialismo",
+      "CABA": "dialoguista"
+    },
+    "supportLevel": 40.6,
+    "lastElectionResult": {
+      "presidential": 29.98
+    }
+  },
+  {
+    "partyName": "Partido Justicialista",
+    "acronym": "PJ",
+    "ideology": {
+      "economic": "estatista",
+      "social": "progresista"
+    },
+    "foundingYear": 1946,
+    "founder": "Juan Domingo Perón",
+    "politicalLeader": {
+      "national": "Cristina Fernandez de Kirchner",
+      "CABA": "Mariano Recalde"
+    },
+    "partyColor": "#36B3ED",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    },
+    "supportLevel": 32.4,
+    "lastElectionResult": {
+      "presidential": 36.68
+    }
+  },
+  {
+    "partyName": "Propuesta Republicana",
+    "acronym": "PRO",
+    "ideology": {
+      "economic": "liberal",
+      "social": "progresista"
+    },
+    "foundingYear": 2008,
+    "founder": "Mauricio Macri",
+    "politicalLeader": {
+      "national": "Mauricio Macri",
+      "CABA": "Jorge Macri"
+    },
+    "partyColor": "#F4CE00",
+    "alignment": {
+      "national": "dialoguista",
+      "CABA": "oficialismo"
+    },
+    "supportLevel": 7.3,
+    "lastElectionResult": {
+      "presidential": 16.98
+    }
+  },
+  {
+    "partyName": "Union Civica Radical",
+    "acronym": "UCR",
+    "ideology": {
+      "economic": "intervencionista",
+      "social": "progresista"
+    },
+    "foundingYear": 1891,
+    "founder": "Leandro N. Alem",
+    "politicalLeader": {
+      "national": "Martín Lousteau",
+      "CABA": "Graciela Ocaña"
+    },
+    "partyColor": "#F23F1F",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "dialoguista"
+    },
+    "supportLevel": 4.4,
+    "lastElectionResult": {
+      "presidential": 11.29
+    }
+  },
+  {
+    "partyName": "Coalicion Civica ARI",
+    "acronym": "CC-ARI",
+    "ideology": {
+      "economic": "intervencionista",
+      "social": "progresista"
+    },
+    "foundingYear": 1946,
+    "founder": "Elisa Carrio",
+    "politicalLeader": {
+      "national": "Elisa Carrio",
+      "CABA": "Paula Oliveto"
+    },
+    "partyColor": "#D71F55",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "dialoguista"
+    },
+    "supportLevel": 1.83,
+    "lastElectionResult": {
+      "presidential": 4.11
+    }
+  }
+]

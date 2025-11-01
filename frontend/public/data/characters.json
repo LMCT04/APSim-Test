@@ -1,0 +1,1082 @@
+[
+  {
+    "fullName": "Lucas Portela Lacanette",
+    "gender": "male",
+    "birthDate": "27-12-1988",
+    "age": 37,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP1",
+    "popularity": null
+  },
+  {
+    "fullName": "Vanina Squetino",
+    "gender": "female",
+    "birthDate": "04-10-1982",
+    "age": 43,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM1",
+    "popularity": null
+  },
+  {
+    "fullName": "Maria Eugenia Pena Blanco",
+    "gender": "female",
+    "birthDate": "13-09-1991",
+    "age": 34,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM1",
+    "popularity": null
+  },
+  {
+    "fullName": "Gonzalo Roberto",
+    "gender": "male",
+    "birthDate": "12-10-1990",
+    "age": 35,
+    "politicalAffiliation": "UCR",
+    "publicOffice": true,
+    "position": "CM1",
+    "popularity": null
+  },
+  {
+    "fullName": "Bautista Prusso",
+    "gender": "male",
+    "birthDate": "06-06-1997",
+    "age": 28,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM1",
+    "popularity": null
+  },
+  {
+    "fullName": "Pablo Cesar Luciano Testori Schroeder",
+    "gender": "male",
+    "birthDate": "29-08-1988",
+    "age": 37,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM1",
+    "popularity": null
+  },
+  {
+    "fullName": "Luciana Grossi",
+    "gender": "female",
+    "birthDate": "05-04-1992",
+    "age": 33,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM1",
+    "popularity": null
+  },
+  {
+    "fullName": "Agustín Fox",
+    "gender": "male",
+    "birthDate": "09-09-1987",
+    "age": 38,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP2",
+    "popularity": null
+  },
+  {
+    "fullName": "Romina Adriana Quevedo",
+    "gender": "female",
+    "birthDate": "11-05-1975",
+    "age": 50,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM2",
+    "popularity": null
+  },
+  {
+    "fullName": "Bruno Pappacena",
+    "gender": "male",
+    "birthDate": "02-03-1988",
+    "age": 37,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM2",
+    "popularity": null
+  },
+  {
+    "fullName": "Griselda Zulma Mela",
+    "gender": "female",
+    "birthDate": "18-04-1973",
+    "age": 52,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM2",
+    "popularity": null
+  },
+  {
+    "fullName": "Juan Manuel Bensusan",
+    "gender": "male",
+    "birthDate": "23-09-1982",
+    "age": 43,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM2",
+    "popularity": null
+  },
+  {
+    "fullName": "Víctor Moreno",
+    "gender": "male",
+    "birthDate": "09-09-1975",
+    "age": 50,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM2",
+    "popularity": null
+  },
+  {
+    "fullName": "Eduardo Del Piano",
+    "gender": "male",
+    "birthDate": "09-02-1998",
+    "age": 27,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM2",
+    "popularity": null
+  },
+  {
+    "fullName": "Silvia Collin",
+    "gender": "female",
+    "birthDate": "18-12-1960",
+    "age": 64,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP3",
+    "popularity": null
+  },
+  {
+    "fullName": "Carlos Alberto Salazar",
+    "gender": "male",
+    "birthDate": "14-03-1965",
+    "age": 60,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM3",
+    "popularity": null
+  },
+  {
+    "fullName": "Carolina Finardi",
+    "gender": "female",
+    "birthDate": "11-03-1986",
+    "age": 39,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM3",
+    "popularity": null
+  },
+  {
+    "fullName": "Eduardo Carnevale",
+    "gender": "male",
+    "birthDate": "16-10-1968",
+    "age": 57,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM3",
+    "popularity": null
+  },
+  {
+    "fullName": "Inés Fornassero",
+    "gender": "female",
+    "birthDate": "31-03-1992",
+    "age": 33,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM3",
+    "popularity": null
+  },
+  {
+    "fullName": "Antonio Montenegro",
+    "gender": "male",
+    "birthDate": "08-01-1954",
+    "age": 71,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM3",
+    "popularity": null
+  },
+  {
+    "fullName": "Julieta Pérez",
+    "gender": "female",
+    "birthDate": "05-11-1989",
+    "age": 35,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM3",
+    "popularity": null
+  },
+  {
+    "fullName": "Silvia Monica Millara",
+    "gender": "female",
+    "birthDate": "04-09-1973",
+    "age": 52,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP4",
+    "popularity": null
+  },
+  {
+    "fullName": "Ignacio Alvarez",
+    "gender": "male",
+    "birthDate": "27-11-1983",
+    "age": 41,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM4",
+    "popularity": null
+  },
+  {
+    "fullName": "Roberto Daniel Gorza",
+    "gender": "male",
+    "birthDate": "23-05-1953",
+    "age": 72,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM4",
+    "popularity": null
+  },
+  {
+    "fullName": "Marta Isabel Yane",
+    "gender": "female",
+    "birthDate": "05-07-1965",
+    "age": 60,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM4",
+    "popularity": null
+  },
+  {
+    "fullName": "Matias Ruben Nieto",
+    "gender": "male",
+    "birthDate": "01-06-1946",
+    "age": 79,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM4",
+    "popularity": null
+  },
+  {
+    "fullName": "Alicia Isabel Reynoso Podesta",
+    "gender": "female",
+    "birthDate": "06-01-1976",
+    "age": 49,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM4",
+    "popularity": null
+  },
+  {
+    "fullName": "Cristian Vicente Corvalan",
+    "gender": "male",
+    "birthDate": "28-07-1985",
+    "age": 40,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM4",
+    "popularity": null
+  },
+  {
+    "fullName": "Sebastian Perdomo Carricart",
+    "gender": "male",
+    "birthDate": "10-01-1988",
+    "age": 37,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP5",
+    "popularity": null
+  },
+  {
+    "fullName": "Maria Pia Inchauspe",
+    "gender": "female",
+    "birthDate": "22-07-1991",
+    "age": 34,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM5",
+    "popularity": null
+  },
+  {
+    "fullName": "Maria Eugenia Acuna Martinez",
+    "gender": "female",
+    "birthDate": "15-09-1978",
+    "age": 47,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM5",
+    "popularity": null
+  },
+  {
+    "fullName": "Martin Hernan Gorretta",
+    "gender": "male",
+    "birthDate": "10-10-1977",
+    "age": 48,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM5",
+    "popularity": null
+  },
+  {
+    "fullName": "Camilo Santiago Vedia",
+    "gender": "male",
+    "birthDate": "09-10-1976",
+    "age": 49,
+    "politicalAffiliation": "UCR",
+    "publicOffice": true,
+    "position": "CM5",
+    "popularity": null
+  },
+  {
+    "fullName": "Yamila Iphais Fuxman",
+    "gender": "female",
+    "birthDate": "06-09-1983",
+    "age": 42,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM5",
+    "popularity": null
+  },
+  {
+    "fullName": "Eduardo Daniel Saganias",
+    "gender": "male",
+    "birthDate": "31-03-1979",
+    "age": 46,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM5",
+    "popularity": null
+  },
+  {
+    "fullName": "Federico Ballan",
+    "gender": "male",
+    "birthDate": "02-12-1983",
+    "age": 41,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP6",
+    "popularity": null
+  },
+  {
+    "fullName": "Maria Cristina Geninazzi",
+    "gender": "female",
+    "birthDate": "06-06-1987",
+    "age": 38,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM6",
+    "popularity": null
+  },
+  {
+    "fullName": "Ignacio Abarca",
+    "gender": "male",
+    "birthDate": "22-01-1982",
+    "age": 43,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM6",
+    "popularity": null
+  },
+  {
+    "fullName": "Samanta Anastasia Pepe",
+    "gender": "female",
+    "birthDate": "11-10-1981",
+    "age": 44,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM6",
+    "popularity": null
+  },
+  {
+    "fullName": "Mariano Cuyeu",
+    "gender": "male",
+    "birthDate": "30-12-1982",
+    "age": 42,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM6",
+    "popularity": null
+  },
+  {
+    "fullName": "Agustina Quinteros",
+    "gender": "female",
+    "birthDate": "26-12-1990",
+    "age": 34,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM6",
+    "popularity": null
+  },
+  {
+    "fullName": "Nicolas Cancellieri",
+    "gender": "male",
+    "birthDate": "01-12-1991",
+    "age": 33,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM6",
+    "popularity": null
+  },
+  {
+    "fullName": "Iara Nahir Surt",
+    "gender": "female",
+    "birthDate": "11-03-1997",
+    "age": 28,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP7",
+    "popularity": null
+  },
+  {
+    "fullName": "Julian Cappa",
+    "gender": "male",
+    "birthDate": "19-11-1988",
+    "age": 37,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM7",
+    "popularity": null
+  },
+  {
+    "fullName": "Marcelo Freire",
+    "gender": "male",
+    "birthDate": "01-07-1969",
+    "age": 56,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM7",
+    "popularity": null
+  },
+  {
+    "fullName": "Elisa Isolina Juarez",
+    "gender": "female",
+    "birthDate": "10-07-1955",
+    "age": 70,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM7",
+    "popularity": null
+  },
+  {
+    "fullName": "Cristian Fabio Flores",
+    "gender": "male",
+    "birthDate": "13-01-1969",
+    "age": 56,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM7",
+    "popularity": null
+  },
+  {
+    "fullName": "Lucia Di Laudo",
+    "gender": "female",
+    "birthDate": "23-12-1991",
+    "age": 33,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM7",
+    "popularity": null
+  },
+  {
+    "fullName": "Leonardo B. Militello",
+    "gender": "male",
+    "birthDate": "01-07-1975",
+    "age": 50,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM7",
+    "popularity": null
+  },
+  {
+    "fullName": "Lautaro Miguel Eviner",
+    "gender": "male",
+    "birthDate": "09-11-1992",
+    "age": 33,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CP8",
+    "popularity": null
+  },
+  {
+    "fullName": "Nayla Belen Loitegui",
+    "gender": "female",
+    "birthDate": "28-05-1986",
+    "age": 39,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM8",
+    "popularity": null
+  },
+  {
+    "fullName": "Juan Ignacio Mallo",
+    "gender": "male",
+    "birthDate": "14-10-1984",
+    "age": 41,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM8",
+    "popularity": null
+  },
+  {
+    "fullName": "Josias Vazquez",
+    "gender": "male",
+    "birthDate": "10-02-1999",
+    "age": 26,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM8",
+    "popularity": null
+  },
+  {
+    "fullName": "Berta Santillan",
+    "gender": "female",
+    "birthDate": "02-01-1976",
+    "age": 49,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM8",
+    "popularity": null
+  },
+  {
+    "fullName": "Marcelo Martinez",
+    "gender": "male",
+    "birthDate": "01-07-1969",
+    "age": 56,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM8",
+    "popularity": null
+  },
+  {
+    "fullName": "Antonella Belen Santagada",
+    "gender": "female",
+    "birthDate": "16-11-1997",
+    "age": 27,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM8",
+    "popularity": null
+  },
+  {
+    "fullName": "Maximiliano Rodrigo Mosquera Fantoni",
+    "gender": "male",
+    "birthDate": "04-02-1976",
+    "age": 49,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP9",
+    "popularity": null
+  },
+  {
+    "fullName": "Juan Jose Chaves",
+    "gender": "male",
+    "birthDate": "17-12-1976",
+    "age": 48,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM9",
+    "popularity": null
+  },
+  {
+    "fullName": "Gisela Soledad Aulita",
+    "gender": "female",
+    "birthDate": "17-05-1986",
+    "age": 39,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM9",
+    "popularity": null
+  },
+  {
+    "fullName": "Lorena Analia Crespo",
+    "gender": "female",
+    "birthDate": "29-10-1972",
+    "age": 53,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM9",
+    "popularity": null
+  },
+  {
+    "fullName": "Luis Yari Meozzi Diaz",
+    "gender": "male",
+    "birthDate": "18-11-1982",
+    "age": 43,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM9",
+    "popularity": null
+  },
+  {
+    "fullName": "Alexis Quimey Miranda",
+    "gender": "male",
+    "birthDate": "18-07-2000",
+    "age": 25,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM9",
+    "popularity": null
+  },
+  {
+    "fullName": "Alberto Rodolfo Espino",
+    "gender": "male",
+    "birthDate": "14-11-1969",
+    "age": 56,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM9",
+    "popularity": null
+  },
+  {
+    "fullName": "Juan Manuel Oro",
+    "gender": "male",
+    "birthDate": "10-06-1983",
+    "age": 42,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP10",
+    "popularity": null
+  },
+  {
+    "fullName": "Karina Elsa Ammannato",
+    "gender": "female",
+    "birthDate": "04-07-1974",
+    "age": 51,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM10",
+    "popularity": null
+  },
+  {
+    "fullName": "Gustavo Licastro",
+    "gender": "male",
+    "birthDate": "21-10-1970",
+    "age": 55,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM10",
+    "popularity": null
+  },
+  {
+    "fullName": "Sandra Marta Chaar",
+    "gender": "female",
+    "birthDate": "22-03-1965",
+    "age": 60,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM10",
+    "popularity": null
+  },
+  {
+    "fullName": "Ramiro Javier Triay",
+    "gender": "male",
+    "birthDate": "25-03-1971",
+    "age": 54,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM10",
+    "popularity": null
+  },
+  {
+    "fullName": "Daniela Romero",
+    "gender": "female",
+    "birthDate": "30-09-1982",
+    "age": 43,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM10",
+    "popularity": null
+  },
+  {
+    "fullName": "Miguel Angel Arancio",
+    "gender": "male",
+    "birthDate": "08-02-1955",
+    "age": 70,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM10",
+    "popularity": null
+  },
+  {
+    "fullName": "Nicolas Ezequiel Mainieri",
+    "gender": "male",
+    "birthDate": "21-12-1987",
+    "age": 37,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP11",
+    "popularity": null
+  },
+  {
+    "fullName": "Fabiana Noemi Satriano",
+    "gender": "female",
+    "birthDate": "10-03-1967",
+    "age": 58,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM11",
+    "popularity": null
+  },
+  {
+    "fullName": "Daniel Saint Hilaire",
+    "gender": "male",
+    "birthDate": "16-12-1966",
+    "age": 58,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM11",
+    "popularity": null
+  },
+  {
+    "fullName": "Antonella Guzzini",
+    "gender": "female",
+    "birthDate": "12-06-1982",
+    "age": 43,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM11",
+    "popularity": null
+  },
+  {
+    "fullName": "Gaston Ezequiel Fernandez",
+    "gender": "male",
+    "birthDate": "04-01-1993",
+    "age": 32,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM11",
+    "popularity": null
+  },
+  {
+    "fullName": "Malena Rotondo",
+    "gender": "female",
+    "birthDate": "23-09-1991",
+    "age": 34,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM11",
+    "popularity": null
+  },
+  {
+    "fullName": "Carlos Buletti",
+    "gender": "male",
+    "birthDate": "14-02-1959",
+    "age": 66,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM11",
+    "popularity": null
+  },
+  {
+    "fullName": "Florencia Mattei",
+    "gender": "female",
+    "birthDate": "15-01-1998",
+    "age": 27,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP12",
+    "popularity": null
+  },
+  {
+    "fullName": "Pablo Ortiz Maldonado",
+    "gender": "male",
+    "birthDate": "20-02-1982",
+    "age": 43,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM12",
+    "popularity": null
+  },
+  {
+    "fullName": "Leopoldo Gaitan",
+    "gender": "male",
+    "birthDate": "28-07-1992",
+    "age": 33,
+    "politicalAffiliation": "UCR",
+    "publicOffice": true,
+    "position": "CM12",
+    "popularity": null
+  },
+  {
+    "fullName": "Monica Liliana Machin",
+    "gender": "female",
+    "birthDate": "12-11-1958",
+    "age": 66,
+    "politicalAffiliation": "CC-ARI",
+    "publicOffice": true,
+    "position": "CM12",
+    "popularity": null
+  },
+  {
+    "fullName": "Vanesa Coria",
+    "gender": "female",
+    "birthDate": "20-02-1973",
+    "age": 52,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM12",
+    "popularity": null
+  },
+  {
+    "fullName": "German Grosso",
+    "gender": "male",
+    "birthDate": "14-12-1974",
+    "age": 50,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM12",
+    "popularity": null
+  },
+  {
+    "fullName": "Guadalupe Baulos",
+    "gender": "female",
+    "birthDate": "14-05-1990",
+    "age": 35,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM12",
+    "popularity": null
+  },
+  {
+    "fullName": "Florencia Scavino",
+    "gender": "female",
+    "birthDate": "08-02-1969",
+    "age": 56,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP13",
+    "popularity": null
+  },
+  {
+    "fullName": "Leonardo Matias Palmieri",
+    "gender": "male",
+    "birthDate": "01-03-1988",
+    "age": 37,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM13",
+    "popularity": null
+  },
+  {
+    "fullName": "Diego Gonzalo Achile",
+    "gender": "male",
+    "birthDate": "19-04-1972",
+    "age": 53,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM13",
+    "popularity": null
+  },
+  {
+    "fullName": "Elizabeth Alicia Gazali",
+    "gender": "female",
+    "birthDate": "18-08-1970",
+    "age": 55,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM13",
+    "popularity": null
+  },
+  {
+    "fullName": "Yuan Chi Cheng",
+    "gender": "male",
+    "birthDate": "30-10-1972",
+    "age": 53,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM13",
+    "popularity": null
+  },
+  {
+    "fullName": "Maria Fernanda Ricci",
+    "gender": "female",
+    "birthDate": "04-08-1974",
+    "age": 51,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM13",
+    "popularity": null
+  },
+  {
+    "fullName": "Enrique Alejandro Thwaites",
+    "gender": "male",
+    "birthDate": "09-06-1967",
+    "age": 58,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM13",
+    "popularity": null
+  },
+  {
+    "fullName": "Martin Cantera",
+    "gender": "male",
+    "birthDate": "01-11-1989",
+    "age": 36,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP14",
+    "popularity": null
+  },
+  {
+    "fullName": "Silvia Alicia Marchesi",
+    "gender": "female",
+    "birthDate": "29-08-1949",
+    "age": 76,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM14",
+    "popularity": null
+  },
+  {
+    "fullName": "Ramiro Ricci",
+    "gender": "male",
+    "birthDate": "26-12-1989",
+    "age": 35,
+    "politicalAffiliation": "UCR",
+    "publicOffice": true,
+    "position": "CM14",
+    "popularity": null
+  },
+  {
+    "fullName": "Maria Soledad Rodriguez Iglesias",
+    "gender": "female",
+    "birthDate": "02-01-1982",
+    "age": 43,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM14",
+    "popularity": null
+  },
+  {
+    "fullName": "Jonathan Fabian Rosas",
+    "gender": "male",
+    "birthDate": "16-06-1989",
+    "age": 36,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM14",
+    "popularity": null
+  },
+  {
+    "fullName": "Maria Paz Carreira Griot",
+    "gender": "female",
+    "birthDate": "18-01-1986",
+    "age": 39,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM14",
+    "popularity": null
+  },
+  {
+    "fullName": "Santiago Bermudez",
+    "gender": "male",
+    "birthDate": "19-08-1976",
+    "age": 49,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM14",
+    "popularity": null
+  },
+  {
+    "fullName": "Agustin Rodriguez Ponti",
+    "gender": "male",
+    "birthDate": "04-04-1991",
+    "age": 34,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CP15",
+    "popularity": null
+  },
+  {
+    "fullName": "Cynthia Martello",
+    "gender": "female",
+    "birthDate": "27-04-1983",
+    "age": 42,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM15",
+    "popularity": null
+  },
+  {
+    "fullName": "Juan Pablo Alegre",
+    "gender": "male",
+    "birthDate": "01-07-1990",
+    "age": 35,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "CM15",
+    "popularity": null
+  },
+  {
+    "fullName": "Soledad Jazmin Lujan Tello",
+    "gender": "female",
+    "birthDate": "24-06-1992",
+    "age": 33,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM15",
+    "popularity": null
+  },
+  {
+    "fullName": "Leonardo Gaston Lucchese Di Leva",
+    "gender": "male",
+    "birthDate": "01-07-1981",
+    "age": 44,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM15",
+    "popularity": null
+  },
+  {
+    "fullName": "Nancy Veronica Bolano",
+    "gender": "female",
+    "birthDate": "11-06-1978",
+    "age": 47,
+    "politicalAffiliation": "PJ",
+    "publicOffice": true,
+    "position": "CM15",
+    "popularity": null
+  },
+  {
+    "fullName": "Amiel Leckie",
+    "gender": "male",
+    "birthDate": "18-05-2000",
+    "age": 25,
+    "politicalAffiliation": "LLA",
+    "publicOffice": true,
+    "position": "CM15",
+    "popularity": null
+  },
+  {
+    "fullName": "Jorge Macri",
+    "gender": "male",
+    "birthDate": "05-02-1965",
+    "age": 60,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "P-GOV-CABA",
+    "popularity": null
+  },
+  {
+    "fullName": "Clara Muzzio",
+    "gender": "female",
+    "birthDate": "15-09-1979",
+    "age": 46,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "P-VGOV-CABA",
+    "popularity": null
+  },
+  {
+    "fullName": "Néstor Grindetti",
+    "gender": "male",
+    "birthDate": "08-02-1955",
+    "age": 70,
+    "politicalAffiliation": "PRO",
+    "publicOffice": true,
+    "position": "P-CAB-CABA",
+    "popularity": null
+  }
+]
