@@ -16,4 +16,5 @@
   width: 15dvw;
   height: fit-content;
   padding: 0.5rem;
+  z-index: 1;
 }

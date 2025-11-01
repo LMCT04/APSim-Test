@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Republica Argentina",
+    "acronym": "ARG",
+    "provinces": [
+      {
+        "name": "Ciudad Autonoma de Buenos Aires",
+        "acronym": "CABA",
+        "executiveBranch": {
+          "governor": null,
+          "viceGovernor": null,
+          "cabinet": {
+            "chiefCabinet": null,
+            "ministries": [
+              {
+                "area": "Salud",
+                "minister": null,
+                "viceMinister": null
+              },
+              {
+                "area": "Educacion",
+                "minister": null,
+                "viceMinister": null
+              }
+            ]
+          }
+        },
+        "districts": [
+          {
+            "id": 1,
+            "name": "Comuna 1",
+            "population": 258922,
+            "subdistricts": [
+              "Retiro",
+              "San Nicolas",
+              "Puerto Madero",
+              "San Telmo",
+              "Monserrat",
+              "Constitucion"
+            ],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 2,
+            "name": "Comuna 2",
+            "population": 149345,
+            "subdistricts": ["Recoleta"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 3,
+            "name": "Comuna 3",
+            "population": 193790,
+            "subdistricts": ["Balvanera", "San Cristobal"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Comuna 4",
+            "population": 241096,
+            "subdistricts": [
+              "La Boca",
+              "Barracas",
+              "Parque Patricios",
+              "Nueva Pompeya"
+            ],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "Comuna 5",
+            "population": 187991,
+            "subdistricts": ["Almagro", "Boedo"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "Comuna 6",
+            "population": 185964,
+            "subdistricts": ["Caballito"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Comuna 7",
+            "population": 242828,
+            "subdistricts": ["Flores", "Parque Chacabuco"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 8,
+            "name": "Comuna 8",
+            "population": 230623,
+            "subdistricts": [
+              "Villa Soldati",
+              "Villa Lugano",
+              "Villa Riachuelo"
+            ],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 9,
+            "name": "Comuna 9",
+            "population": 171839,
+            "subdistricts": ["Liniers", "Mataderos", "Parque Avellaneda"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 10,
+            "name": "Comuna 10",
+            "population": 170859,
+            "subdistricts": [
+              "Villa Real",
+              "Monte Castro",
+              "Versalles",
+              "Floresta",
+              "Velez Sarsfield",
+              "Villa Luro"
+            ],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 11,
+            "name": "Comuna 11",
+            "population": 190195,
+            "subdistricts": [
+              "Villa Devoto",
+              "Villa Del Parque",
+              "Villa Santa Rita",
+              "Villa Gral. Mitre"
+            ],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 12,
+            "name": "Comuna 12",
+            "population": 215442,
+            "subdistricts": [
+              "Coghlan",
+              "Saavedra",
+              "Villa Urquiza",
+              "Villa Pueyrredon"
+            ],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 13,
+            "name": "Comuna 13",
+            "population": 236723,
+            "subdistricts": ["Belgrano", "Nuñez", "Colegiales"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 14,
+            "name": "Comuna 14",
+            "population": 227315,
+            "subdistricts": ["Palermo"],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          },
+          {
+            "id": 15,
+            "name": "Comuna 15",
+            "population": 182551,
+            "subdistricts": [
+              "Chacarita",
+              "Villa Crespo",
+              "La Paternal",
+              "Agronomia",
+              "Parque Chas",
+              "Villa Ortuzar"
+            ],
+            "juntaComunal": {
+              "CP": null,
+              "CM": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

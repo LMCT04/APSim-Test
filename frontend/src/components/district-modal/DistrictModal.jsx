@@ -1,11 +1,9 @@
 import style from "./DistrictModal.module.css";
-import { useEffect, useState } from "react";
-import partyDB from "../../../public/partys.json";
+import { useState } from "react";
+import { useSelector } from "react-redux";
 
 const DistrictModal = ({ geo, onClose, db }) => {
-  useEffect(() => {
-    console.log("Comuna cargada:", db);
-  }, [db]);
+  const partyDB = useSelector((state) => state.partys);
 
   const [selectedMember, setSelectedMember] = useState(null);
 
@@ -30,19 +28,19 @@ const DistrictModal = ({ geo, onClose, db }) => {
                 className={style.memberJC}
                 style={{
                   backgroundColor: getPartyColor(
-                    db?.juntaComunal.members[0].politicalAffiliation
+                    db?.juntaComunal.CM[0].politicalAffiliation
                   ),
                 }}
-                onClick={() => setSelectedMember(db?.juntaComunal.members[0])}
+                onClick={() => setSelectedMember(db?.juntaComunal.CM[0])}
               />
               <span
                 className={style.memberJC}
                 style={{
                   backgroundColor: getPartyColor(
-                    db?.juntaComunal.members[1].politicalAffiliation
+                    db?.juntaComunal.CM[1].politicalAffiliation
                   ),
                 }}
-                onClick={() => setSelectedMember(db?.juntaComunal.members[1])}
+                onClick={() => setSelectedMember(db?.juntaComunal.CM[1])}
               />
             </div>
             <div className={style.tableCenter}>
@@ -51,12 +49,10 @@ const DistrictModal = ({ geo, onClose, db }) => {
                   className={style.presidentJC}
                   style={{
                     backgroundColor: getPartyColor(
-                      db?.juntaComunal.presidentDistrict.politicalAffiliation
+                      db?.juntaComunal.CP.politicalAffiliation
                     ),
                   }}
-                  onClick={() =>
-                    setSelectedMember(db?.juntaComunal.presidentDistrict)
-                  }
+                  onClick={() => setSelectedMember(db?.juntaComunal.CP)}
                 />
               </div>
               <div className={style.table}></div>
@@ -65,19 +61,19 @@ const DistrictModal = ({ geo, onClose, db }) => {
                   className={style.memberJC}
                   style={{
                     backgroundColor: getPartyColor(
-                      db?.juntaComunal.members[2].politicalAffiliation
+                      db?.juntaComunal.CM[2].politicalAffiliation
                     ),
                   }}
-                  onClick={() => setSelectedMember(db?.juntaComunal.members[2])}
+                  onClick={() => setSelectedMember(db?.juntaComunal.CM[2])}
                 />
                 <span
                   className={style.memberJC}
                   style={{
                     backgroundColor: getPartyColor(
-                      db?.juntaComunal.members[3].politicalAffiliation
+                      db?.juntaComunal.CM[3].politicalAffiliation
                     ),
                   }}
-                  onClick={() => setSelectedMember(db?.juntaComunal.members[3])}
+                  onClick={() => setSelectedMember(db?.juntaComunal.CM[3])}
                 />
               </div>
             </div>
@@ -86,24 +82,24 @@ const DistrictModal = ({ geo, onClose, db }) => {
                 className={style.memberJC}
                 style={{
                   backgroundColor: getPartyColor(
-                    db?.juntaComunal.members[4].politicalAffiliation
+                    db?.juntaComunal.CM[4].politicalAffiliation
                   ),
                 }}
-                onClick={() => setSelectedMember(db?.juntaComunal.members[4])}
+                onClick={() => setSelectedMember(db?.juntaComunal.CM[4])}
               />
               <span
                 className={style.memberJC}
                 style={{
                   backgroundColor: getPartyColor(
-                    db?.juntaComunal.members[5].politicalAffiliation
+                    db?.juntaComunal.CM[5].politicalAffiliation
                   ),
                 }}
-                onClick={() => setSelectedMember(db?.juntaComunal.members[5])}
+                onClick={() => setSelectedMember(db?.juntaComunal.CM[5])}
               />
             </div>
           </div>
           {selectedMember ? (
-            <div className={style.infoJC}>{selectedMember.name}</div>
+            <div className={style.infoJC}>{selectedMember.fullName}</div>
           ) : (
             <p></p>
           )}

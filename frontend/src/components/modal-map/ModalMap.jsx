@@ -5,10 +5,9 @@ import {
   Geography,
   ZoomableGroup,
 } from "react-simple-maps";
-import partysDB from "../../../public/partys.json";
-import comunaDB from "../../../public/comunas.json";
 import { useState, useMemo } from "react";
 import { SubdistrictModal, DistrictModal } from "../index";
+import { useSelector } from "react-redux";
 
 const ModalMap = ({ province, onClose }) => {
   const [viewMode, setViewMode] = useState("barrios");
@@ -16,6 +15,11 @@ const ModalMap = ({ province, onClose }) => {
   const [hoverInfo, setHoverInfo] = useState(null);
   const [selectedGeo, setSelectedGeo] = useState(null);
   const [modalType, setModalType] = useState(null); // comuna o barrio
+
+  const partysDB = useSelector((state) => state.partys);
+  const comunaDB = useSelector(
+    (state) => state.argentina[0].provinces[0].districts
+  );
 
   const provinceGeo =
     viewMode === "barrios"
@@ -33,15 +37,13 @@ const ModalMap = ({ province, onClose }) => {
       const comuna = comunaDB.find((c) =>
         c.subdistricts.includes(subdistrictName)
       );
-      return getPartyColor(
-        comuna?.juntaComunal?.presidentDistrict?.politicalAffiliation
-      );
+      console.log(comuna);
+
+      return getPartyColor(comuna?.juntaComunal?.CP?.politicalAffiliation);
     } else {
       const districtId = geo.properties.id;
       const comuna = comunaDB.find((c) => c.id === districtId);
-      return getPartyColor(
-        comuna?.juntaComunal?.presidentDistrict?.politicalAffiliation
-      );
+      return getPartyColor(comuna?.juntaComunal?.CP?.politicalAffiliation);
     }
   };
 
@@ -85,7 +87,7 @@ const ModalMap = ({ province, onClose }) => {
                 );
                 if (!district) return <p>No se encontró la comuna</p>;
 
-                const president = district.juntaComunal?.presidentDistrict;
+                const president = district.juntaComunal?.CP;
                 const party = partysDB.find(
                   (p) => p.acronym === president?.politicalAffiliation
                 );
@@ -96,7 +98,7 @@ const ModalMap = ({ province, onClose }) => {
                     <div>
                       <p>
                         <strong>Pte. Jta. Comunal:</strong>
-                        <p>{president?.name}</p>
+                        <p>{president?.fullName}</p>
                         <p>
                           <span
                             style={{
@@ -176,17 +178,17 @@ const ModalMap = ({ province, onClose }) => {
                         default: {
                           fill: fillColor,
                           stroke: "#ffffffff",
-                          strokeWidth: 0.2,
+                          strokeWidth: 0.5,
                           outline: "none",
                           cursor: "pointer",
                         },
                         hover: {
                           fill: fillColor,
-                          stroke: "#000",
-                          strokeWidth: 0.2,
+                          stroke: "#fff",
+                          strokeWidth: 1,
                           outline: "none",
                           filter:
-                            "brightness(85%) drop-shadow(0px 2px 6px rgba(0,0,0,0.7))",
+                            "brightness(85%) drop-shadow(0px 2px 6px rgba(0,0,0,2))",
                           transform: "scale(1.02)",
                           transformBox: "fill-box",
                           transformOrigin: "center",

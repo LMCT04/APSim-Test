@@ -2,8 +2,30 @@ import { useState, useEffect } from "react";
 import { MapView } from "../../components";
 import ModalMap from "../../components/modal-map/ModalMap";
 import style from "./Game.module.css";
+import { useDispatch } from "react-redux";
+import { setDBCharacters } from "../../components/redux/slices/characters/charactersSlice";
+import { setDBPartys } from "../../components/redux/slices/partys/partysSlice";
+import { setDBArgentine } from "../../components/redux/slices/argentina/argentinaSlice";
+import { getCharactersCABA } from "../../components/redux/slices/argentina/thunk";
 
 const Game = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    Promise.all([
+      fetch("/data/characters.json").then((res) => res.json()),
+      fetch("/data/partys.json").then((res) => res.json()),
+      fetch("/data/argentina.json").then((res) => res.json()),
+    ])
+      .then(([characters, partys, argentina]) => {
+        dispatch(setDBCharacters(characters));
+        dispatch(setDBPartys(partys));
+        dispatch(setDBArgentine(argentina));
+        dispatch(getCharactersCABA(characters));
+      })
+      .catch((err) => console.error("Error cargando datos:", err));
+  }, []);
+
   const [selectedProvince, setSelectedProvince] = useState(null);
   const [Time, setTime] = useState({
     year: 2025,
