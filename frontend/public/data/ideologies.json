@@ -1,0 +1,131 @@
+{
+  "economic": {
+    "types": [
+      {
+        "name": "Economia Planificada",
+        "value": 0,
+        "description": ""
+      },
+      {
+        "name": "Colectivismo",
+        "value": 2,
+        "description": ""
+      },
+      {
+        "name": "Estatismo",
+        "value": 6,
+        "posture": {
+          "Estatismo Radical": 4,
+          "Estatismo Moderado": 8
+        },
+        "description": ""
+      },
+      {
+        "name": "Economia Mixta",
+        "value": 10,
+        "description": ""
+      },
+      {
+        "name": "Liberalismo Clasico",
+        "value": 14,
+        "posture": {
+          "Liberalismo Clasico Pragmatico": 12,
+          "Liberalismo Clasico Radical": 16
+        },
+        "description": ""
+      },
+      {
+        "name": "Liberalismo Austriaco",
+        "value": 18,
+        "description": ""
+      },
+      {
+        "name": "Anarco Liberal",
+        "value": 20,
+        "description": ""
+      }
+    ]
+  },
+  "social": {
+    "types": [
+      {
+        "name": "Ultra Progresista",
+        "value": 0,
+        "description": ""
+      },
+      {
+        "name": "Progresista",
+        "value": 4,
+        "posture": {
+          "Progresista Moderado": 6,
+          "Progresista Radical": 2
+        },
+        "description": ""
+      },
+      {
+        "name": "Liberal",
+        "value": 8,
+        "description": ""
+      },
+      {
+        "name": "Conservador",
+        "value": 12,
+        "posture": {
+          "Tradicionalista Rigido": 18,
+          "Tradicionalista": 16,
+          "Tradicionalista Abierto": 14,
+          "Conservador Moderado": 10
+        },
+        "description": ""
+      },
+      {
+        "name": "Ultra Conservador",
+        "value": 20,
+        "description": ""
+      }
+    ]
+  },
+  "political": {
+    "types": [
+      {
+        "name": "Totalitaria",
+        "value": 0,
+        "description": ""
+      },
+      {
+        "name": "Autoritaria",
+        "value": 2,
+        "description": ""
+      },
+      {
+        "name": "Monarquica Tradicional",
+        "value": 6,
+        "posture": {
+          "Monarquica Absoluta": 4,
+          "Monarquica Constitucional": 8
+        },
+        "description": ""
+      },
+      {
+        "name": "Elitista",
+        "value": 10,
+        "description": ""
+      },
+      {
+        "name": "Democratica Presidencialista",
+        "value": 16,
+        "posture": {
+          "Democratica Parlamentaria": 12,
+          "Democratica Semipresidencialista": 14,
+          "Democratica Comunitaria": 18
+        },
+        "description": ""
+      },
+      {
+        "name": "Anarquica",
+        "value": 20,
+        "description": ""
+      }
+    ]
+  }
+}

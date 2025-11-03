@@ -3,8 +3,9 @@
     "partyName": "La Libertad Avanza",
     "acronym": "LLA",
     "ideology": {
-      "economic": "liberal",
-      "social": "conservador"
+      "economic": "Liberalismo Austriaco",
+      "social": "Tradicionalista Abierto",
+      "political": "Democratica Presidencialista"
     },
     "foundingYear": 2021,
     "founder": "Javier Milei",
@@ -26,8 +27,9 @@
     "partyName": "Partido Justicialista",
     "acronym": "PJ",
     "ideology": {
-      "economic": "estatista",
-      "social": "progresista"
+      "economic": "Estatismo Radical",
+      "social": "Progresista",
+      "political": "Democratica Presidencialista"
     },
     "foundingYear": 1946,
     "founder": "Juan Domingo Perón",
@@ -49,8 +51,9 @@
     "partyName": "Propuesta Republicana",
     "acronym": "PRO",
     "ideology": {
-      "economic": "liberal",
-      "social": "progresista"
+      "economic": "Liberalismo Clasico",
+      "social": "Liberal",
+      "political": "Democratica Presidencialista"
     },
     "foundingYear": 2008,
     "founder": "Mauricio Macri",
@@ -72,8 +75,9 @@
     "partyName": "Union Civica Radical",
     "acronym": "UCR",
     "ideology": {
-      "economic": "intervencionista",
-      "social": "progresista"
+      "economic": "Estatismo",
+      "social": "Progresista Moderado",
+      "political": "Democratica Presidencialista"
     },
     "foundingYear": 1891,
     "founder": "Leandro N. Alem",
@@ -95,8 +99,9 @@
     "partyName": "Coalicion Civica ARI",
     "acronym": "CC-ARI",
     "ideology": {
-      "economic": "intervencionista",
-      "social": "progresista"
+      "economic": "Liberalismo Clasico Pragmatico",
+      "social": "Progresista",
+      "political": "Democratica Presidencialista"
     },
     "foundingYear": 1946,
     "founder": "Elisa Carrio",

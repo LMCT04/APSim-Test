@@ -1,0 +1,41 @@
+.modalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  background-color: grey;
+}
+
+.headModal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 3.5dvh;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+.headModal p {
+  font-weight: bold;
+  color: white;
+  height: fit-content;
+  font-size: 1.2rem;
+  margin-left: 0.25rem;
+}
+
+.btnClose {
+  height: 80%;
+  aspect-ratio: 1/1;
+}

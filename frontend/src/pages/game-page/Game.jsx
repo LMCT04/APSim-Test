@@ -1,32 +1,23 @@
-import { useState, useEffect } from "react";
-import { MapView } from "../../components";
-import ModalMap from "../../components/modal-map/ModalMap";
 import style from "./Game.module.css";
-import { useDispatch } from "react-redux";
+
+import { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { advanceTime, getTimeOfDay } from "../../utils/time";
+
+import { ModalMap, GameInit, MapView } from "../../components";
 import { setDBCharacters } from "../../components/redux/slices/characters/charactersSlice";
 import { setDBPartys } from "../../components/redux/slices/partys/partysSlice";
 import { setDBArgentine } from "../../components/redux/slices/argentina/argentinaSlice";
 import { getCharactersCABA } from "../../components/redux/slices/argentina/thunk";
+import { setDBIdeologies } from "../../components/redux/slices/ideologies/ideologiesSlice";
+import PartyBar from "../../components/party-bar/partyBar";
 
 const Game = () => {
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    Promise.all([
-      fetch("/data/characters.json").then((res) => res.json()),
-      fetch("/data/partys.json").then((res) => res.json()),
-      fetch("/data/argentina.json").then((res) => res.json()),
-    ])
-      .then(([characters, partys, argentina]) => {
-        dispatch(setDBCharacters(characters));
-        dispatch(setDBPartys(partys));
-        dispatch(setDBArgentine(argentina));
-        dispatch(getCharactersCABA(characters));
-      })
-      .catch((err) => console.error("Error cargando datos:", err));
-  }, []);
-
+  const selectedParty = useSelector((state) => state.game.playerParty);
   const [selectedProvince, setSelectedProvince] = useState(null);
+  const [partyConfirmed, setPartyConfirmed] = useState(false);
+  const [speed, setSpeed] = useState(0);
   const [Time, setTime] = useState({
     year: 2025,
     month: 1,
@@ -35,7 +26,55 @@ const Game = () => {
     tick: 0,
   });
 
-  const [speed, setSpeed] = useState(1); // 0 = pausado, 1 = lento, 2 = medio, 3 = rápido
+  // Carga inicial de datos
+  useEffect(() => {
+    Promise.all([
+      fetch("/data/characters.json").then((res) => res.json()),
+      fetch("/data/partys.json").then((res) => res.json()),
+      fetch("/data/argentina.json").then((res) => res.json()),
+      fetch("/data/ideologies.json").then((res) => res.json()),
+    ])
+      .then(([characters, partys, argentina, ideologies]) => {
+        dispatch(setDBCharacters(characters));
+        dispatch(setDBPartys(partys));
+        dispatch(setDBArgentine(argentina));
+        dispatch(setDBIdeologies(ideologies));
+        dispatch(getCharactersCABA(characters));
+      })
+      .catch((err) => console.error("Error cargando datos:", err));
+  }, []);
+
+  // Sincroniza confirmación de partido con Redux
+  useEffect(() => {
+    if (selectedParty) {
+      setPartyConfirmed(true);
+    }
+  }, [selectedParty]);
+
+  // Avance del tiempo según velocidad
+  useEffect(() => {
+    const getIntervalDuration = (speed) => {
+      switch (speed) {
+        case 1:
+          return 2000;
+        case 2:
+          return 1000;
+        case 3:
+          return 500;
+        default:
+          return null;
+      }
+    };
+
+    const duration = getIntervalDuration(speed);
+    if (!duration) return;
+
+    const interval = setInterval(() => {
+      setTime((prevTime) => advanceTime(prevTime));
+    }, duration);
+
+    return () => clearInterval(interval);
+  }, [speed]);
 
   const handleRegionSelect = (regionName) => {
     setSelectedProvince(regionName);
@@ -45,59 +84,15 @@ const Game = () => {
     setSelectedProvince(null);
   };
 
-  // Función para determinar el momento del día
-  const getTimeOfDay = (hour) => {
-    if (hour >= 0 && hour < 6) return "Madrugada";
-    if (hour >= 6 && hour < 12) return "Mañana";
-    if (hour >= 12 && hour < 18) return "Tarde";
-    return "Noche";
-  };
-
-  useEffect(() => {
-    if (speed === 0) return;
-
-    const intervalDurations = {
-      1: 2000, // x1 = 2s
-      2: 1000, // x2 = 1s
-      3: 500, // x3 = 0.5s
-    };
-
-    const interval = setInterval(() => {
-      setTime((prev) => {
-        let hour = prev.hour + 2; // Avanza 2 horas por tick
-        let day = prev.day;
-        let month = prev.month;
-        let year = prev.year;
-
-        if (hour >= 24) {
-          hour = hour % 24;
-          day += 1;
-        }
-        if (day > 30) {
-          day = 1;
-          month += 1;
-        }
-        if (month > 12) {
-          month = 1;
-          year += 1;
-        }
-
-        return {
-          ...prev,
-          hour,
-          day,
-          month,
-          year,
-          tick: prev.tick + 1,
-        };
-      });
-    }, intervalDurations[speed]);
-
-    return () => clearInterval(interval);
-  }, [speed]);
+  const partyDB = useSelector((state) => state.partys);
 
   return (
     <div className={style.mainContainer}>
+      {!partyConfirmed && (
+        <GameInit onConfirm={() => setPartyConfirmed(true)} />
+      )}
+      <PartyBar DataBase={partyDB.find((p) => p.partyName === selectedParty)} />
+      <div className={style.topBar}></div>
       <div className={style.timeContainer}>
         <p>
           Tiempo: {Time.day}/{Time.month}/{Time.year} - {Time.hour}:00 (
