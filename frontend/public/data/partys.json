@@ -118,5 +118,129 @@
     "lastElectionResult": {
       "presidential": 4.11
     }
+  },
+  {
+    "partyName": "Nuevo Movimiento al Socialismo",
+    "acronym": "Nuevo MAS",
+    "ideology": {
+      "economic": "Liberalismo Clasico Pragmatico",
+      "social": "Progresista",
+      "political": "Democratica Presidencialista"
+    },
+    "foundingYear": 2003,
+    "founder": "Manueala Castañeira",
+    "politicalLeader": {
+      "national": "Manueala Castañeira",
+      "CABA": "Federico Winokur"
+    },
+    "partyColor": "#D71F55",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    },
+    "supportLevel": 1.83,
+    "lastElectionResult": {
+      "presidential": 4.11
+    }
+  },
+  {
+    "partyName": "Partido Obrero",
+    "acronym": "PO",
+    "ideology": {
+      "economic": "Trotskista",
+      "social": "Progresista",
+      "political": "Democracia Socialista"
+    },
+    "foundingYear": 1964,
+    "founder": "Jorge Altamira",
+    "politicalLeader": {
+      "national": "Gabriel Solano",
+      "CABA": "Gabriel Solano"
+    },
+    "partyColor": "#FF0000",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    }
+  },
+  {
+    "partyName": "Partido de los Trabajadores Socialistas",
+    "acronym": "PTS",
+    "ideology": {
+      "economic": "Trotskista",
+      "social": "Progresista",
+      "political": "Democracia Socialista"
+    },
+    "foundingYear": 1988,
+    "founder": "Ex militantes del MAS",
+    "politicalLeader": {
+      "national": "Myriam Bregman",
+      "CABA": "Myriam Bregman"
+    },
+    "partyColor": "#A52A2A",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    }
+  },
+  {
+    "partyName": "Movimiento Socialista de los Trabajadores",
+    "acronym": "MST",
+    "ideology": {
+      "economic": "Trotskista",
+      "social": "Feminista y Progresista",
+      "political": "Democracia Socialista"
+    },
+    "foundingYear": 1992,
+    "founder": "Ex militantes del MAS",
+    "politicalLeader": {
+      "national": "Vilma Ripoll",
+      "CABA": "Cele Fierro"
+    },
+    "partyColor": "#800080",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    }
+  },
+  {
+    "partyName": "Izquierda Socialista",
+    "acronym": "IS",
+    "ideology": {
+      "economic": "Trotskista",
+      "social": "Progresista",
+      "political": "Democracia Socialista"
+    },
+    "foundingYear": 1988,
+    "founder": "Ex militantes del MAS",
+    "politicalLeader": {
+      "national": "Juan Carlos Giordano",
+      "CABA": "Mercedes Trimarchi"
+    },
+    "partyColor": "#DC143C",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    }
+  },
+  {
+    "partyName": "Movimiento de Integración y Desarrollo",
+    "acronym": "MID",
+    "ideology": {
+      "economic": "Desarrollismo",
+      "social": "Moderado",
+      "political": "Democracia Representativa"
+    },
+    "foundingYear": 1963,
+    "founder": "Arturo Frondizi y Rogelio Frigerio",
+    "politicalLeader": {
+      "national": "Oscar Zago",
+      "CABA": "Oscar Zago"
+    },
+    "partyColor": "#4682B4",
+    "alignment": {
+      "national": "oposicion",
+      "CABA": "oposicion"
+    }
   }
 ]

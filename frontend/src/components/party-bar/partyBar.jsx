@@ -7,7 +7,7 @@ import CCARI from "../../assets/Coalicion-Civica-ARI.png";
 import PRO from "../../assets/Propuesta-Republicana.png";
 
 import { useSelector } from "react-redux";
-import Modal from "../modal/modal";
+import { Modal } from "../ui";
 import { useState } from "react";
 import IdeologySpectrumBar from "../ideology-spectrum-bar/ideologySpectrumBar";
 
