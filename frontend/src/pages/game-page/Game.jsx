@@ -5,11 +5,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { advanceTime, getTimeOfDay } from "../../utils/time";
 
 import { ModalMap, GameInit, MapView } from "../../components";
-import { setDBCharacters } from "../../components/redux/slices/characters/charactersSlice";
-import { setDBPartys } from "../../components/redux/slices/partys/partysSlice";
-import { setDBArgentine } from "../../components/redux/slices/argentina/argentinaSlice";
-import { getCharactersCABA } from "../../components/redux/slices/argentina/thunk";
-import { setDBIdeologies } from "../../components/redux/slices/ideologies/ideologiesSlice";
+import { setDBCharacters } from "../../redux/slices/characters/charactersSlice";
+import { setDBPartys } from "../../redux/slices/partys/partysSlice";
+import { setDBArgentine } from "../../redux/slices/argentina/argentinaSlice";
+import { getCharactersCABA } from "../../redux/slices/argentina/thunk";
+import { setDBIdeologies } from "../../redux/slices/ideologies/ideologiesSlice";
 import PartyBar from "../../components/party-bar/partyBar";
 
 const Game = () => {
