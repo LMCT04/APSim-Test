@@ -1,0 +1,70 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.header {
+  height: 20%;
+  width: 100%;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  height: 70%;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuOptions {
+  border: 2px solid white;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menuOptions li {
+  width: 40%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.menuOptions li button {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 0.7rem 0;
+  justify-content: center;
+}
