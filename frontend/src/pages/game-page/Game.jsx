@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { advanceTime, getTimeOfDay } from "../../utils/time";
 
-import { ModalMap, GameInit, MapView } from "../../components";
+import { ModalMap, GameInit, MapView, MainMap } from "../../components";
 import { setDBCharacters } from "../../redux/slices/characters/charactersSlice";
-import { setDBPartys } from "../../redux/slices/partys/partysSlice";
+// import { setDBPartys } from "../../redux/slices/partys/partysSlice";
 import { setDBArgentine } from "../../redux/slices/argentina/argentinaSlice";
 import { getCharactersCABA } from "../../redux/slices/argentina/thunk";
 import { setDBIdeologies } from "../../redux/slices/ideologies/ideologiesSlice";
@@ -16,7 +16,7 @@ const Game = () => {
   const dispatch = useDispatch();
   const selectedParty = useSelector((state) => state.game.playerParty);
   const [selectedProvince, setSelectedProvince] = useState(null);
-  const [partyConfirmed, setPartyConfirmed] = useState(false);
+  // const [partyConfirmed, setPartyConfirmed] = useState(false);
   const [speed, setSpeed] = useState(0);
   const [Time, setTime] = useState({
     year: 2025,
@@ -30,13 +30,13 @@ const Game = () => {
   useEffect(() => {
     Promise.all([
       fetch("/data/characters.json").then((res) => res.json()),
-      fetch("/data/partys.json").then((res) => res.json()),
+      // fetch("/data/partys.json").then((res) => res.json()),
       fetch("/data/argentina.json").then((res) => res.json()),
       fetch("/data/ideologies.json").then((res) => res.json()),
     ])
-      .then(([characters, partys, argentina, ideologies]) => {
+      .then(([characters, argentina, ideologies]) => {
         dispatch(setDBCharacters(characters));
-        dispatch(setDBPartys(partys));
+        // dispatch(setDBPartys(partys));
         dispatch(setDBArgentine(argentina));
         dispatch(setDBIdeologies(ideologies));
         dispatch(getCharactersCABA(characters));
@@ -44,12 +44,12 @@ const Game = () => {
       .catch((err) => console.error("Error cargando datos:", err));
   }, []);
 
-  // Sincroniza confirmación de partido con Redux
-  useEffect(() => {
-    if (selectedParty) {
-      setPartyConfirmed(true);
-    }
-  }, [selectedParty]);
+  // Sincroniza confirmación de partido con Redux, se paso las funciones de seleccion de partido politico al setup
+  // useEffect(() => {
+  //   if (selectedParty) {
+  //     setPartyConfirmed(true);
+  //   }
+  // }, [selectedParty]);
 
   // Avance del tiempo según velocidad
   useEffect(() => {
@@ -88,9 +88,9 @@ const Game = () => {
 
   return (
     <div className={style.mainContainer}>
-      {!partyConfirmed && (
+      {/* {!partyConfirmed && (
         <GameInit onConfirm={() => setPartyConfirmed(true)} />
-      )}
+      )} */}
       <PartyBar DataBase={partyDB.find((p) => p.partyName === selectedParty)} />
       <div className={style.topBar}></div>
       <div className={style.timeContainer}>
@@ -106,10 +106,11 @@ const Game = () => {
         </div>
       </div>
 
-      <MapView onSelectRegion={handleRegionSelect} />
+      {/* <MapView onSelectRegion={handleRegionSelect} />
       {selectedProvince && (
         <ModalMap province={selectedProvince} onClose={closeModal} />
-      )}
+      )} */}
+      <MainMap />
     </div>
   );
 };
