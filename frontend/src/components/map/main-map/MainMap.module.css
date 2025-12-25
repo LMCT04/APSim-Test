@@ -1,0 +1,32 @@
+.mainmap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(205, 194, 173);
+}
+
+.contextMenu {
+  background-color: #fff;
+  position: absolute;
+  list-style: none;
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+  border: 2px solid gray;
+}
+
+.contextMenu li {
+  margin-bottom: 0.3rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 4px solid gray;
+}
+
+.contextMenu li:last-child {
+  margin-bottom: 0;
+}
+
+.contextMenu li:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
