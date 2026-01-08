@@ -22,12 +22,14 @@ const geographyStyles = {
     outline: "none",
     stroke: "#141212ff",
     strokeWidth: 0.05,
+    cursor: "pointer",
   },
   pressed: {
     fill: "#D6D6DA",
     outline: "none",
     stroke: "#141212ff",
     strokeWidth: 0.05,
+    cursor: "pointer",
   },
 };
 
