@@ -6,6 +6,7 @@ import {
   Geography,
   ZoomableGroup,
 } from "react-simple-maps";
+import { Modal } from "../../ui";
 
 const mapRef = "/maps/gadm41_ARG_1.json";
 const mapStyle = {
@@ -23,21 +24,37 @@ const mapStyle = {
     stroke: "#141212ff",
     strokeWidth: 0.2,
     pointerEvents: "all",
+    cursor: "pointer",
   },
   pressed: {
     fill: "#D6D6DA",
     outline: "none",
     stroke: "#141212ff",
     pointerEvents: "all",
+    cursor: "pointer",
   },
 };
 
 const MainMap = () => {
-  const [contextMenu, setContextMenu] = useState(null);
+  const [contextMenu, setContextMenu] = useState({
+    x: null,
+    y: null,
+    province: null,
+    geoData: null, // obejeto completo
+    isActive: false,
+  });
+  const [modalOpen, setModalOpen] = useState(false);
   const handleSelectProvince = (event, geo) => {
     const nombre = geo?.properties?.NAME_1;
-    setContextMenu({ x: event.clientX, y: event.clientY, province: nombre });
-    console.log(nombre);
+    setContextMenu({
+      x: event.clientX,
+      y: event.clientY,
+      province: nombre,
+      geoData: geo,
+      isActive: true,
+    });
+    // console.log("Esto es lo q me trae GEO: ", geo);
+    // console.log(nombre);
   };
 
   return (
@@ -68,16 +85,34 @@ const MainMap = () => {
           </Geographies>
         </ZoomableGroup>
       </ComposableMap>
-      {contextMenu && (
+      {contextMenu.isActive && (
         <ul
           className={style.contextMenu}
           style={{ top: contextMenu.y, left: contextMenu.x }}
         >
-          <li>{contextMenu.province}</li>
+          <li
+            onClick={() => {
+              setModalOpen(true);
+              setContextMenu((prev) => ({ ...prev, isActive: false }));
+            }}
+          >
+            {contextMenu.province}
+          </li>
           <li>Gobierno</li>
           <li>Legislatura</li>
-          <li>Poder Legislativo</li>
+          <li onClick={() => console.log(contextMenu.geoData)}>
+            Poder Legislativo
+          </li>
         </ul>
+      )}
+      {modalOpen && (
+        <Modal
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+          menuTitle={contextMenu.province}
+        >
+          Hola
+        </Modal>
       )}
     </div>
   );
