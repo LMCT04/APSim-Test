@@ -1,0 +1,18 @@
+{
+  "Ciudad de Buenos Aires": {
+    "tag": "CABA",
+    "slug": "CiudaddeBuenosAires"
+  },
+  "Buenos Aires": {
+    "tag": "BA",
+    "slug": "BuenosAires"
+  },
+  "Santa Fe": {
+    "tag": "SF",
+    "slug": "SantaFe"
+  },
+  "Córdoba": {
+    "tag": "CBA",
+    "slug": "Cordoba"
+  }
+}

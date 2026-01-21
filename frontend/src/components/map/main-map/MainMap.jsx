@@ -7,6 +7,8 @@ import {
   ZoomableGroup,
 } from "react-simple-maps";
 import { Modal } from "../../ui";
+import ModalMap from "../../modal-map/ModalMap";
+import DistrictMap from "../district-map/DistrictMap";
 
 const mapRef = "/maps/gadm41_ARG_1.json";
 const mapStyle = {
@@ -111,7 +113,7 @@ const MainMap = () => {
           onClose={() => setModalOpen(false)}
           menuTitle={contextMenu.province}
         >
-          Hola
+          <DistrictMap geo={contextMenu} />
         </Modal>
       )}
     </div>
