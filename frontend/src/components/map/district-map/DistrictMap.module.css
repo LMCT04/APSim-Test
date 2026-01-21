@@ -1,0 +1,12 @@
+.DistrictMap {
+  width: 60dvw;
+  height: 70dvh;
+  background-color: red;
+  color: #fff;
+}
+
+.select {
+  position: absolute;
+  top: 6rem;
+  right: 25rem;
+}
